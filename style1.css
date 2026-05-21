@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
